@@ -1,0 +1,21 @@
+{
+    "name": "best4u/blog-module",
+    "minimum-stability": "dev",
+    "description": "",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "BEst4u",
+            "email": "best4u@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Blog\\": ""
+        }
+    },
+
+    "require":{
+        "joshbrw/laravel-module-installer": "^0.1.2"
+    }
+}
